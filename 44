@@ -1,0 +1,11 @@
+def calc(i, j):
+    s = 0
+    for x in range(1, i+1):
+        for y in range(1, j+1):
+            if x * y >= 30:
+                s += x * y
+    return s
+
+i = int(input())
+j = int(input())
+print(calc(i, j))

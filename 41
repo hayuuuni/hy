@@ -1,0 +1,11 @@
+def max_min(a, b, c, d):
+    return max(a, b, c, d), min(a, b, c, d)
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+mx, mn = max_min(a, b, c, d)
+print("최댓값:", mx)
+print("최솟값:", mn)
